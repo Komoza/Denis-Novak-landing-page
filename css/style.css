@@ -1,0 +1,370 @@
+@font-face {
+    font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+         url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+    
+}
+
+header{
+    background-color: rgba(255, 255, 255, .95);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header {
+    max-width: 944px;
+    margin: 32px auto 0;
+    font-family: 'Gilroy-Bold';
+}
+
+.container{
+    font-family: 'Gilroy-Bold';
+}
+
+footer{
+    font-family: 'Gilroy-Medium';
+    color: #070707;
+}
+
+
+
+/* HEADER PREFERENCE */
+.listbox{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    margin: 32px auto;
+}
+.listbox a{
+    text-decoration: none;
+    color: #828282; 
+    padding: 10px 30px;
+}
+.listbox a:hover{
+    background-color: rgba(0,0,0, .05);
+    border-radius: 10px;
+}
+.listbox a:active{
+    background-color: rgba(29, 26, 26, .5);
+    color: white !important;
+}
+.listbox li{
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    white-space: nowrap;
+    font-size: 18px;
+    color: #828282;
+}
+header li:active{
+    color: #070707;
+}
+.buttonActive{
+    color: #070707 !important;
+}
+hr{
+    margin: 0;
+}
+
+/* MAIN BLOCK PREFERENCE */
+.openMenu{
+    position: absolute;
+    right: 30px;
+    visibility: hidden;
+    z-index: 20;
+}
+.closeMenu{
+    position: fixed;
+    right: 34px;
+    visibility: hidden;
+    z-index: 20;
+ }
+.mainBlock{
+    max-width: 944px;  
+    margin: 0 auto 64px;
+    padding-top: 128px;
+}
+.mainBlock h1{
+    font-size: 47px;
+    color: #070707;
+    margin-right: auto;
+}
+.mainBlock img{
+    width: 944px;
+    margin: 50px auto;
+    max-height: 387px;
+    object-fit: cover;
+}
+.intelligence{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.language{
+    margin-right: 0 !important;
+    font-size: 16px;
+    margin-left: auto;
+}
+.language div{
+    transform: rotate(-90deg);
+    margin-bottom: 23px;
+}
+.language a{
+    text-decoration: none;
+    color: black;
+}
+.mainContent{
+    display: flex;
+    align-items: flex-end;
+}
+
+/* ABOUT ME BLOCK PREFERENCE */
+.aboutMe{
+    text-align: center;
+    background-color: #F6F6F6;
+    padding: 120px 0 107px;
+}
+.aboutMe h2{
+   font-size: 34px;
+   padding-bottom: 17px; 
+}
+.aboutMe p{
+    margin-top: 50px;
+}
+.aboutMeContent{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 485px;
+}
+
+/* SKILLS BLOCK PREFERENCE */
+.skills{ 
+   max-width: 944px;
+   margin: 0 auto; 
+   padding: 91px 0 110px;
+}
+.skills h2{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 69px;
+}
+.skillsText{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Gilroy-Medium';
+    margin-bottom: 83px;
+}
+.cards{
+    display: flex;
+}
+.card{
+    width: 166px;
+    height: 206px;
+    margin-right: auto;
+    margin-left: auto;    
+}
+.card p{
+    margin-top: 24px;
+    text-align: center;
+    color: #828282;   
+}
+.logo{
+    width: 89px;
+    height: 89px;
+    margin: 0 auto;
+}
+.figmaLogo{
+    width: 58px;
+    height: 89px;
+    margin: 0 auto;
+}
+.star{
+    margin: 40px auto 0;
+    text-align: center;
+}
+.figmaStar{
+    margin: 55px auto 0;
+    text-align: center;
+}
+.psBackgronund{
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+.aiBackground{
+    background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+}
+.aeBackgronund{
+    background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%); 
+}
+
+/* PORTFOLIO BLOCK PREFERENCE */
+.portfolio{
+    background-color: #F6F6F6;
+    padding: 112px 0 96px;
+}
+.portfolio h2{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 47px;
+}
+.portfolioContainer{
+    max-width: 944px;
+    text-align: center;
+    margin: 0 auto;
+}
+.portfolioContainer div{
+    font-family: 'Gilroy-Medium';
+    margin: 46px auto 100px;
+}
+.portfolioContainer a{
+    color: #070707;
+}
+
+/* FOOTER (Contacts) BLOCK PREFERENCE */
+.contacts{
+    max-width: 342px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 114px 0;
+}
+.contacts h2{
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+}
+.contacts div{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.contacts button{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 0;
+    height: 42px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    font-family: 'Gilroy-Bold';
+}
+
+.socialLike{
+   font-size: 14px;
+   color: #828282; 
+}
+.socialBox{
+    display: flex;
+}
+.social{
+    margin: 0 auto 46px;
+}
+
+
+@media screen and (max-width: 980px){
+    .mainBlock img{
+        width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+ 
+    } 
+
+    .portfolio img{
+        max-height: 100%;
+        width: 100%;
+        object-fit: contain;  
+    }
+
+    .mainBlock{
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+    .header{
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+    .aboutMe{
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+    .skills{
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+    .portfolio{
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+    .contacts{
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+
+}
+@media screen and (max-width: 680px){
+    .cards{
+        display: block;
+    }
+    .card{
+        margin-bottom: 81px;
+    }
+    .openMenu{
+        visibility: visible;
+        top: 70px;
+    }
+    .header{
+        visibility: hidden;
+        position: absolute;
+    }
+    .mainContent{
+        display: block;
+    }
+    .intelligence{
+        margin-top: 23px;
+    }
+    .mainBlock img{
+        margin-top: 0px;
+    }
+    .mainBlock{
+        padding-top: 65px;
+    }
+    .header{
+        background-color: white;
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+    hr, .hideBurger, .hideClose, .hideLang{
+        visibility: hidden;
+    }
+    .listbox{
+        display: block;
+    }
+    .headerActive, .showClose, .showBurger, .showLang{
+        visibility: visible;
+    }
+    .listbox li{
+        font-size: 34px;
+        padding-top: 68px;
+    }
+
+    .showLang{
+        z-index: 101;
+    }
+
+}
